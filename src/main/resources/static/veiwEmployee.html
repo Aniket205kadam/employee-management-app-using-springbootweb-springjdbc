@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>View Employee</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <style>
+        .container {
+            max-width: 400px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>View Employee</h1>
+        <form action="view" method="POST">
+            <label for="empId">Employee ID:</label>
+            <input type="text" id="empId" name="empId" required><br>
+            <div class="button">
+                <button type="submit" class="btn">View Employee</button>
+                <a href="index.jsp" class="btn_cancel">Cancel</a>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
